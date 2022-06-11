@@ -118,247 +118,6 @@
         ]
       },
       {
-        "id": 3417,
-        "preview": "/battery_preview_images/AcXB8vxZYxwh6HurWDLc0Abp5hcU7HON00edpjOe.png",
-        "video": "/battery_videos/ehnullqRV684UqQCAyWJxTbiJovmvUVh6I0BfO4I.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "sound": {
-          "id": 20,
-          "name": "Clock Mechanism",
-          "name_l10n": {
-            "en": "Clock Mechanism",
-            "zh": "时钟机制",
-            "zh_Hant_TW": "時鍾機制",
-            "zh_Hant_HK": "時鍾機制",
-            "ru": "Часовой Мехнизм",
-            "ja": "時計じかけ",
-            "hi": "क्लॉक मैकेनिज्म",
-            "fr": "Mécanisme d'horloge",
-            "es": "Mecanismo de reloj",
-            "de": "Uhrwerk"
-          },
-          "url": "/battery_sounds/nfJH1DSP8QkH5WpWt0q31wBrL96BRxyGUIVV9H0V.mp3"
-        },
-        "metas": []
-      },
-      {
-        "id": 3415,
-        "preview": "/battery_preview_images/LHwhn0Q3UrMqKY2h3jaVZObkkmOlaKoOwhfUujgb.png",
-        "video": "/battery_videos/qbVk2mXELn8v7xYyoxDF7vTienQRVUhYnPZqb9cY.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 5,
-          "url": "/battery_lightnings/tAvEJvAo0JqXc2IX1ZPmceUCmoGa4lXgMoYB9NFS.png"
-        },
-        "sound": {
-          "id": 13,
-          "name": "Energy Charge",
-          "name_l10n": {
-            "en": "Energy Charge",
-            "zh": "电费",
-            "zh_Hant_TW": "電費",
-            "zh_Hant_HK": "電費",
-            "ru": "Заряд Энергии",
-            "ja": "エネルギーチャージ",
-            "hi": "एनर्जी चार्ज",
-            "fr": "Charge d'énergie",
-            "es": "Carga de energía",
-            "de": "Energieaufladung"
-          },
-          "url": "/battery_sounds/AJs2P4KPZAPdpjadi7aJJEkW4Y8uYGctQNOZVWYf.mp3"
-        },
-        "metas": []
-      },
-      {
-        "id": 3420,
-        "preview": "/battery_preview_images/YhSkVJjT2S5WR862Ni1XAWPku3W88H3OVpe5sG9X.png",
-        "video": "/battery_videos/MfSFn0tUJRgxoR8HQ8ClbAeqJduTzZxnXaSNuOiG.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 48,
-          "url": "/battery_lightnings/HhNibqfsT4dXM7oCmyTOjTZaLzD9bYUuJnFgGiF4.png"
-        },
-        "sound": {
-          "id": 13,
-          "name": "Energy Charge",
-          "name_l10n": {
-            "en": "Energy Charge",
-            "zh": "电费",
-            "zh_Hant_TW": "電費",
-            "zh_Hant_HK": "電費",
-            "ru": "Заряд Энергии",
-            "ja": "エネルギーチャージ",
-            "hi": "एनर्जी चार्ज",
-            "fr": "Charge d'énergie",
-            "es": "Carga de energía",
-            "de": "Energieaufladung"
-          },
-          "url": "/battery_sounds/AJs2P4KPZAPdpjadi7aJJEkW4Y8uYGctQNOZVWYf.mp3"
-        },
-        "metas": []
-      },
-      {
-        "id": 3418,
-        "preview": "/battery_preview_images/8SuyyATQq6WBkxU3SRNU1u4ByrAg86qU0GdCb6zc.png",
-        "video": "/battery_videos/EgudZoaEP8dGKHou3B3SWj4o3MssTopvacX8Md0h.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "sound": {
-          "id": 20,
-          "name": "Clock Mechanism",
-          "name_l10n": {
-            "en": "Clock Mechanism",
-            "zh": "时钟机制",
-            "zh_Hant_TW": "時鍾機制",
-            "zh_Hant_HK": "時鍾機制",
-            "ru": "Часовой Мехнизм",
-            "ja": "時計じかけ",
-            "hi": "क्लॉक मैकेनिज्म",
-            "fr": "Mécanisme d'horloge",
-            "es": "Mecanismo de reloj",
-            "de": "Uhrwerk"
-          },
-          "url": "/battery_sounds/nfJH1DSP8QkH5WpWt0q31wBrL96BRxyGUIVV9H0V.mp3"
-        },
-        "metas": []
-      },
-      {
-        "id": 3419,
-        "preview": "/battery_preview_images/03XzrIqV9IFDpmuwpjHLxPKFmhz1L00TZBZXmc1J.png",
-        "video": "/battery_videos/54TYDvpzb0JoH5oLr8UD62B2vp3Bf67TNLhEl3cM.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "sound": {
-          "id": 20,
-          "name": "Clock Mechanism",
-          "name_l10n": {
-            "en": "Clock Mechanism",
-            "zh": "时钟机制",
-            "zh_Hant_TW": "時鍾機制",
-            "zh_Hant_HK": "時鍾機制",
-            "ru": "Часовой Мехнизм",
-            "ja": "時計じかけ",
-            "hi": "क्लॉक मैकेनिज्म",
-            "fr": "Mécanisme d'horloge",
-            "es": "Mecanismo de reloj",
-            "de": "Uhrwerk"
-          },
-          "url": "/battery_sounds/nfJH1DSP8QkH5WpWt0q31wBrL96BRxyGUIVV9H0V.mp3"
-        },
-        "metas": []
-      },
-      {
-        "id": 3416,
-        "preview": "/battery_preview_images/9J930JzZxvD4CEar4aKXGctlcb00HF9D3CXYvSjQ.png",
-        "video": "/battery_videos/cBxHxq3thOFiSfnyb4mxx9OCqsUKfmr5Na94x4up.mp4",
-        "sound": {
-          "id": 20,
-          "name": "Clock Mechanism",
-          "name_l10n": {
-            "en": "Clock Mechanism",
-            "zh": "时钟机制",
-            "zh_Hant_TW": "時鍾機制",
-            "zh_Hant_HK": "時鍾機制",
-            "ru": "Часовой Мехнизм",
-            "ja": "時計じかけ",
-            "hi": "क्लॉक मैकेनिज्म",
-            "fr": "Mécanisme d'horloge",
-            "es": "Mecanismo de reloj",
-            "de": "Uhrwerk"
-          },
-          "url": "/battery_sounds/nfJH1DSP8QkH5WpWt0q31wBrL96BRxyGUIVV9H0V.mp3"
-        },
-        "metas": []
-      },
-      {
         "id": 3165,
         "preview": "/battery_preview_images/OtghqKIdbqWGMrAn5XmbzAJQNTxseSlItBf7NT9C.png",
         "video": "/battery_videos/DNzaRyVHXR48YQ0jGpIHdTaoQwmuv73TP9ZSjsEm.mp4",
@@ -1171,116 +930,6 @@
     "icon": "/battery_tags_icons/vo0GRFzUFH6DiDSaFCiX7Dz2CcGC4Wl35w0bFKs6.png",
     "charging_anims": [
       {
-        "id": 3362,
-        "preview": "/battery_preview_images/tfkSQU8cFgzyFwEddx9edkHzzWuIC7zN7iweEpvA.png",
-        "video": "/battery_videos/u2Jm7kj1hoQPfE6WeaLCJE6n09d988t9qhvyLB88.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 56,
-          "url": "/battery_lightnings/K4K3jLhT6TWyRgvWd1zQBHIqP0QYGz80wpAe9xvn.png"
-        },
-        "sound": {
-          "id": 19,
-          "name": "Sparkling Diamonds",
-          "name_l10n": {
-            "en": "Sparkling Diamonds",
-            "zh": "闪闪发光的钻石",
-            "zh_Hant_TW": "閃閃發光的鑽石",
-            "zh_Hant_HK": "閃閃發光的鑽石",
-            "ru": "Сверкающие Бриллианты",
-            "ja": "輝くダイヤモンド",
-            "hi": "जगमगाते हीरे",
-            "fr": "Diamants étincelants",
-            "es": "Diamantes brillantes",
-            "de": "Funkelnde Diamanten"
-          },
-          "url": "/battery_sounds/gFYliNvMVcSTvXxqdOTRaqfCEy354lQJRO5sbF8B.mp3"
-        },
-        "metas": [
-          {
-            "id": 1,
-            "name": "apples"
-          },
-          {
-            "id": 2,
-            "name": "promoted"
-          }
-        ]
-      },
-      {
-        "id": 3361,
-        "preview": "/battery_preview_images/MQppCiDLeh7FqocH0JMn4hjX6PHivxrL3gpVnW79.png",
-        "video": "/battery_videos/cTkF56rztQ2E4ZQMjeSex8ePoCdUa4lBQ2c7ShqG.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 50,
-          "url": "/battery_lightnings/GAjZyl7sPtainNEyHoVBlhcYB7drkzGPlRZDiBtW.png"
-        },
-        "sound": {
-          "id": 19,
-          "name": "Sparkling Diamonds",
-          "name_l10n": {
-            "en": "Sparkling Diamonds",
-            "zh": "闪闪发光的钻石",
-            "zh_Hant_TW": "閃閃發光的鑽石",
-            "zh_Hant_HK": "閃閃發光的鑽石",
-            "ru": "Сверкающие Бриллианты",
-            "ja": "輝くダイヤモンド",
-            "hi": "जगमगाते हीरे",
-            "fr": "Diamants étincelants",
-            "es": "Diamantes brillantes",
-            "de": "Funkelnde Diamanten"
-          },
-          "url": "/battery_sounds/gFYliNvMVcSTvXxqdOTRaqfCEy354lQJRO5sbF8B.mp3"
-        },
-        "metas": [
-          {
-            "id": 1,
-            "name": "apples"
-          },
-          {
-            "id": 2,
-            "name": "promoted"
-          }
-        ]
-      },
-      {
         "id": 3396,
         "preview": "/battery_preview_images/lEcJKjIv7ORin91wqTxCWHOFRVX0cCXOurdfKs0t.png",
         "video": "/battery_videos/hUJ4Zs2ubYnJbgEYABemwc2ePNSJyt1UugEoYuxw.mp4",
@@ -1306,57 +955,6 @@
         "lightning": {
           "id": 29,
           "url": "/battery_lightnings/NitJsqZ9VwAPerxMfXJ3OFIIAou58hLi86BNz96Z.png"
-        },
-        "sound": {
-          "id": 19,
-          "name": "Sparkling Diamonds",
-          "name_l10n": {
-            "en": "Sparkling Diamonds",
-            "zh": "闪闪发光的钻石",
-            "zh_Hant_TW": "閃閃發光的鑽石",
-            "zh_Hant_HK": "閃閃發光的鑽石",
-            "ru": "Сверкающие Бриллианты",
-            "ja": "輝くダイヤモンド",
-            "hi": "जगमगाते हीरे",
-            "fr": "Diamants étincelants",
-            "es": "Diamantes brillantes",
-            "de": "Funkelnde Diamanten"
-          },
-          "url": "/battery_sounds/gFYliNvMVcSTvXxqdOTRaqfCEy354lQJRO5sbF8B.mp3"
-        },
-        "metas": [
-          {
-            "id": 1,
-            "name": "apples"
-          }
-        ]
-      },
-      {
-        "id": 3393,
-        "preview": "/battery_preview_images/Q7jWdRIg2zKYXv6FjOnycXzkWDxs27HjnpGmo85y.png",
-        "video": "/battery_videos/lnNT8hMg0ym1fS90vkNR27KXS7CEQtwFjAEvorrm.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 4,
-          "url": "/battery_lightnings/NqB9HjZsfu4KX8ORHA9xiBSeF383vPOLJiYbliX2.png"
         },
         "sound": {
           "id": 19,
@@ -2834,38 +2432,6 @@
         ]
       },
       {
-        "id": 3323,
-        "preview": "/battery_preview_images/SXdpijvJ8X4i5dUkRx2WSoFxHipA4aVXn0msyQtl.png",
-        "video": "/battery_videos/FSJ5ar9TOYLo0my3p2mCx6uorrZPtoa9aZVIuN3O.mp4",
-        "sound": {
-          "id": 21,
-          "name": "Counter Beeps",
-          "name_l10n": {
-            "en": "Counter Beeps",
-            "zh": "计数器的哔哔声",
-            "zh_Hant_TW": "計數器的嗶嗶聲",
-            "zh_Hant_HK": "計數器的嗶嗶聲",
-            "ru": "Звук Кассы",
-            "ja": "カウンターのビープ音",
-            "hi": "काउंटर बीप्स",
-            "fr": "Compteur bips",
-            "es": "Pitidos de contador",
-            "de": "Zähler-Pieptöne"
-          },
-          "url": "/battery_sounds/STh8LNkyeIG5OfJOsRsVAPTWu0braK7LvCUZ4BcN.mp3"
-        },
-        "metas": [
-          {
-            "id": 2,
-            "name": "promoted"
-          },
-          {
-            "id": 3,
-            "name": "speedometer"
-          }
-        ]
-      },
-      {
         "id": 3207,
         "preview": "/battery_preview_images/1vyco2eEgxwYXIwjHKoarkDFmS6WPnszLJ1KIKzI.png",
         "video": "/battery_videos/LLCGieEqDVqXrdDIALY0QxHKCGf1iYdVAv3765Ud.mp4",
@@ -2936,57 +2502,6 @@
             "de": "Magisch auftanken"
           },
           "url": "/battery_sounds/o1Ywb4ffXqjVXnvhBKMcY3sWYCPq5Ig4ckdxPeb3.mp3"
-        },
-        "metas": [
-          {
-            "id": 3,
-            "name": "speedometer"
-          }
-        ]
-      },
-      {
-        "id": 3213,
-        "preview": "/battery_preview_images/3zrwQNzkn1umS3i1dTb6xCtVhkw0L9iDPyKZuABC.png",
-        "video": "/battery_videos/WJGcfJOvjacYs446dkTyASiPiWwOJJzxamo1zEJk.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 4,
-          "url": "/battery_lightnings/NqB9HjZsfu4KX8ORHA9xiBSeF383vPOLJiYbliX2.png"
-        },
-        "sound": {
-          "id": 21,
-          "name": "Counter Beeps",
-          "name_l10n": {
-            "en": "Counter Beeps",
-            "zh": "计数器的哔哔声",
-            "zh_Hant_TW": "計數器的嗶嗶聲",
-            "zh_Hant_HK": "計數器的嗶嗶聲",
-            "ru": "Звук Кассы",
-            "ja": "カウンターのビープ音",
-            "hi": "काउंटर बीप्स",
-            "fr": "Compteur bips",
-            "es": "Pitidos de contador",
-            "de": "Zähler-Pieptöne"
-          },
-          "url": "/battery_sounds/STh8LNkyeIG5OfJOsRsVAPTWu0braK7LvCUZ4BcN.mp3"
         },
         "metas": [
           {
@@ -4123,6 +3638,57 @@
           "url": "/battery_sounds/VhclRUZ9K3nDORJGe5NsnuUDed3wCZx6aMD9DDoI.mp3"
         },
         "metas": []
+      },
+      {
+        "id": 3213,
+        "preview": "/battery_preview_images/3zrwQNzkn1umS3i1dTb6xCtVhkw0L9iDPyKZuABC.png",
+        "video": "/battery_videos/WJGcfJOvjacYs446dkTyASiPiWwOJJzxamo1zEJk.mp4",
+        "lightning_position": "top",
+        "color": {
+          "id": 3,
+          "name": "Ice White",
+          "name_l10n": {
+            "en": "Ice White",
+            "zh": "雪白",
+            "zh_Hant_TW": "雪白",
+            "zh_Hant_HK": "雪白",
+            "ru": "Белоснежный",
+            "ja": "アイスホワイト",
+            "hi": "आइस वाइट",
+            "fr": "Blanc glacé",
+            "es": "Blanco hielo",
+            "de": "Eisweiß"
+          },
+          "color": "#ffffffff",
+          "stroke": false
+        },
+        "lightning": {
+          "id": 4,
+          "url": "/battery_lightnings/NqB9HjZsfu4KX8ORHA9xiBSeF383vPOLJiYbliX2.png"
+        },
+        "sound": {
+          "id": 21,
+          "name": "Counter Beeps",
+          "name_l10n": {
+            "en": "Counter Beeps",
+            "zh": "计数器的哔哔声",
+            "zh_Hant_TW": "計數器的嗶嗶聲",
+            "zh_Hant_HK": "計數器的嗶嗶聲",
+            "ru": "Звук Кассы",
+            "ja": "カウンターのビープ音",
+            "hi": "काउंटर बीप्स",
+            "fr": "Compteur bips",
+            "es": "Pitidos de contador",
+            "de": "Zähler-Pieptöne"
+          },
+          "url": "/battery_sounds/STh8LNkyeIG5OfJOsRsVAPTWu0braK7LvCUZ4BcN.mp3"
+        },
+        "metas": [
+          {
+            "id": 3,
+            "name": "speedometer"
+          }
+        ]
       }
     ]
   },
