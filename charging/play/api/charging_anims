@@ -5598,57 +5598,6 @@
         ]
       },
       {
-        "id": 3333,
-        "preview": "/battery_preview_images/E4dEo9P1mQz5PxWCVuKXWJbeeXiWsPEm57FUtah5.png",
-        "video": "/battery_videos/fHbWS5Y4MUfx6uIInREjQ3aJJhaUSDXwOegLRyvi.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 5,
-          "url": "/battery_lightnings/tAvEJvAo0JqXc2IX1ZPmceUCmoGa4lXgMoYB9NFS.png"
-        },
-        "sound": {
-          "id": 4,
-          "name": "Spinning",
-          "name_l10n": {
-            "en": "Spinning",
-            "zh": "旋转",
-            "zh_Hant_TW": "旋轉",
-            "zh_Hant_HK": "旋轉",
-            "ru": "Кручение",
-            "ja": "回転",
-            "hi": "स्पिनिंग",
-            "fr": "Filage",
-            "es": "Giro",
-            "de": "Durchgedreht"
-          },
-          "url": "/battery_sounds/Chb2SQ2P84E93ybSmI248L8wCj2KReJQG9CGYTD0.mp3"
-        },
-        "metas": [
-          {
-            "id": 2,
-            "name": "promoted"
-          }
-        ]
-      },
-      {
         "id": 3225,
         "preview": "/battery_preview_images/AuWa1dxMGBq2QggACv4cpu0u5NOUAtJN44X10MhW.png",
         "video": "/battery_videos/7Eke2LnUr0Di8c4BfEXzzP0rEQefslqqyoF31B5F.mp4",
