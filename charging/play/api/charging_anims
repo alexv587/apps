@@ -2698,57 +2698,6 @@
             "name": "speedometer"
           }
         ]
-      },
-      {
-        "id": 3363,
-        "preview": "/battery_preview_images/VK0qRfskKokR5ttrrhLKUoKpe9RD6IVRJJQ7hcgo.png",
-        "video": "/battery_videos/ES91ieVwozLIQpPQcC8kaPWm8i2Q3PIqtKiY6noy.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 5,
-          "url": "/battery_lightnings/tAvEJvAo0JqXc2IX1ZPmceUCmoGa4lXgMoYB9NFS.png"
-        },
-        "sound": {
-          "id": 14,
-          "name": "Energy Dissipation",
-          "name_l10n": {
-            "en": "Energy Dissipation",
-            "zh": "能量耗散",
-            "zh_Hant_TW": "能量耗散",
-            "zh_Hant_HK": "能量耗散",
-            "ru": "Поглощение Энергии",
-            "ja": "エネルギー消失",
-            "hi": "ऊर्जा गायब होना",
-            "fr": "Dissipation d'énergie",
-            "es": "Disipación de energía",
-            "de": "Energiedissipation"
-          },
-          "url": "/battery_sounds/Nb3nsDt7tkVKGxPFS9M8FPQirJoSAlQJ4HsZrfQ9.mp3"
-        },
-        "metas": [
-          {
-            "id": 3,
-            "name": "speedometer"
-          }
-        ]
       }
     ]
   },
