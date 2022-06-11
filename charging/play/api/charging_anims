@@ -3848,52 +3848,6 @@
         "metas": []
       },
       {
-        "id": 3395,
-        "preview": "/battery_preview_images/uMr99XS7JVa1oonxwfzI8kNZ7Fl0xvbuNK58kp05.png",
-        "video": "/battery_videos/WiFLexWe1PVSNj3RdOdOmwWDL1XojvPzN8tVUP9L.mp4",
-        "lightning_position": "top",
-        "color": {
-          "id": 3,
-          "name": "Ice White",
-          "name_l10n": {
-            "en": "Ice White",
-            "zh": "雪白",
-            "zh_Hant_TW": "雪白",
-            "zh_Hant_HK": "雪白",
-            "ru": "Белоснежный",
-            "ja": "アイスホワイト",
-            "hi": "आइस वाइट",
-            "fr": "Blanc glacé",
-            "es": "Blanco hielo",
-            "de": "Eisweiß"
-          },
-          "color": "#ffffffff",
-          "stroke": false
-        },
-        "lightning": {
-          "id": 48,
-          "url": "/battery_lightnings/HhNibqfsT4dXM7oCmyTOjTZaLzD9bYUuJnFgGiF4.png"
-        },
-        "sound": {
-          "id": 24,
-          "name": "Magic Harp",
-          "name_l10n": {
-            "en": "Magic Harp",
-            "zh": "神奇的竖琴",
-            "zh_Hant_TW": "神奇的豎琴",
-            "zh_Hant_HK": "神奇的豎琴",
-            "ru": "Волшебная Лира",
-            "ja": "魔法の竪琴",
-            "hi": "मैजिक हार्प",
-            "fr": "Harpe magique",
-            "es": "Arpa mágica",
-            "de": "Magische Harfe"
-          },
-          "url": "/battery_sounds/CsGgPb3W5cdvh0u1SiyXehmu9DoJuSkc4ScyRLsU.mp3"
-        },
-        "metas": []
-      },
-      {
         "id": 3167,
         "preview": "/battery_preview_images/FiShiJ8VT7ERfc7dm6myUZ6dsZPzNxL7Of5CLNy3.png",
         "video": "/battery_videos/dOd0PxxoZWq5ahysgGanrbsxkjrkMWBv9uchfxY2.mp4",
