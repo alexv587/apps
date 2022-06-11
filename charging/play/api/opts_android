@@ -4,6 +4,12 @@
   "review": {
     "enabled": false
   },
+  "oss": {
+    "url": "https://jasonv525.github.io/charging",
+    "regions": {
+      "en": "https://jasonv525.github.io/charging"
+    }
+  },
   "top_up_products": [
     {
       "id": "1",
