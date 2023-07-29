@@ -4,6 +4,19 @@
     "status": 1,
     "review": {
       "enabled": false
-    }
-  }
+    },
+    "ads": [
+      {
+        "type": 2,
+        "position": 0,
+        "unit_id": "ca-app-pub-8230910529822926/8184937422"
+      },
+      {
+        "type": 2,
+        "position": 1,
+        "unit_id": "ca-app-pub-8230910529822926/8184937422"
+      }
+    ]
+  },
+  "msg": null
 }
