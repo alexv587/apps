@@ -1,0 +1,74 @@
+name: cron-apps
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0' # 每周日
+
+jobs:
+  generate:
+    name: Generate on ${{ matrix.os }} with node.js ${{ matrix.node-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [18.x]
+    permissions:
+      contents: write
+      # issues: write # 重写了 permissions，故而需要额外添加 contents 权限，不然 git clone 会失败
+    env:
+      GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+    concurrency:
+      group: ${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          repository: alexv587/app-cli
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - name: Run install@shell
+        run: |
+          npm install
+      - name: Run Generate WantWords App Info
+        env:
+          ANDROID_APP_ID: reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese
+          # IOS_APP_ID: reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese
+        run: |
+          # Android
+          if [ $ANDROID_APP_ID ]; then
+            npm run dev -- gplay --appId $ANDROID_APP_ID --debug;
+            npm run dev -- gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
+            npm run dev -- aso --store gplay --appId $ANDROID_APP_ID --debug;
+            npm run dev -- aso --store gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
+          fi
+          # iOS
+          if [ $IOS_APP_ID ]; then
+            npm run dev -- store --appId $IOS_APP_ID --debug;
+            npm run dev -- store --country cn --lang zh --appId $IOS_APP_ID --debug;
+            npm run dev -- aso --store itunes --appId $IOS_APP_ID --debug;
+            npm run dev -- aso --store itunes --country cn --lang zh --appId $IOS_APP_ID --debug;
+          fi
+      - name: Checkout Github Pages
+        continue-on-error: true # 忽略 gh-pages 分支未创建
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Merge Github Pages
+        run: |
+          # 避免 gh-pages 分支未创建
+          mkdir -p gh-pages
+          # 计划任务无法准确描述月底
+          if [ -d dist/gh-pages ]; then cp -r dist/gh-pages/. gh-pages/; fi
+      - name: Deploy Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: gh-pages
+          branch: gh-pages
