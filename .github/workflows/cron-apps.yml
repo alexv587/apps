@@ -36,7 +36,7 @@ jobs:
       - name: Run install@shell
         run: |
           npm install
-      - name: Run Generate WantWords App Info
+      - name: Run Generate RDWords App Info
         env:
           ANDROID_APP_ID: reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese
           # IOS_APP_ID: reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese
