@@ -2,9 +2,9 @@
   "code": 0,
   "data": [
     "app",
-    "use",
-    "privacy",
     "data",
-    "vpn"
+    "privacy",
+    "use",
+    "phone"
   ]
 }
