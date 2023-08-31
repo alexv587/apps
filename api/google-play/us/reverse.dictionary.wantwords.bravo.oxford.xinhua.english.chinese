@@ -5,7 +5,7 @@
     "title": "RDWords - Reverse Dictionary",
     "icon": "https://play-lh.googleusercontent.com/C54crxrkEGQVoWryTQkUs-lJ7AE6U3umcJS0PqV7JviCv6WnkbfktM201CukJpYUzEM",
     "description": "What Is a Reverse Dictionary?\nOpposite to a regular (forward) dictionary that provides definitions for query words, a reverse dictionary returns words semantically matching the query descriptions.\n\nWhat Can a Reverse Dictionary Do?\n* Solve the tip-of-the-tongue problem, the phenomenon of failing to retrieve a word from memory\n* Help new language learners\n* Help word selection (or word dictionary) anomia patients, people who can recognize and describe an object but fail to name it due to neurological disorder",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "developer": "JSF Apex",
     "developerId": "JSF+Apex",
     "url": "https://play.google.com/store/apps/details?id=reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese&hl=en&gl=us"
