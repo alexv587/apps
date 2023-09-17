@@ -74,6 +74,25 @@ jobs:
             npm run dev -- aso --store itunes --appId $IOS_APP_ID --debug;
             npm run dev -- aso --store itunes --country cn --lang zh --appId $IOS_APP_ID --debug;
           fi
+      - name: Run Generate VOLT Charging Play App Info
+        env:
+          ANDROID_APP_ID: charging.animation.play.show.fun.pika.battery.flashing
+          # IOS_APP_ID: charging.animation.play.show.fun.pika.battery.flashing
+        run: |
+          # Android
+          if [ $ANDROID_APP_ID ]; then
+            npm run dev -- gplay --appId $ANDROID_APP_ID --debug;
+            npm run dev -- gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
+            npm run dev -- aso --store gplay --appId $ANDROID_APP_ID --debug;
+            npm run dev -- aso --store gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
+          fi
+          # iOS
+          if [ $IOS_APP_ID ]; then
+            npm run dev -- store --appId $IOS_APP_ID --debug;
+            npm run dev -- store --country cn --lang zh --appId $IOS_APP_ID --debug;
+            npm run dev -- aso --store itunes --appId $IOS_APP_ID --debug;
+            npm run dev -- aso --store itunes --country cn --lang zh --appId $IOS_APP_ID --debug;
+          fi
       - name: Checkout Github Pages
         continue-on-error: true # 忽略 gh-pages 分支未创建
         uses: actions/checkout@v3
