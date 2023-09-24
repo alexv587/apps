@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "data": {
+    "appId": "charging.animation.play.show.fun.pika.battery.flashing",
+    "title": "VOLT 充电动画 - 个性充电动画",
+    "icon": "https://play-lh.googleusercontent.com/rhSA0wV09y1YkOvjQb0iY0O1TaLQEEhihqgqR-gP7d-czaKHOzhHUktjaF3xY5ImXg",
+    "description": "当手机连接到充电器或放置到无线充电面板时，充电动画应用程序将自动启动并打开显示充电动画。手机/平板停止充电后，充电动画将停止工作。\n\n充电动画的主要功能：\n- 检测当前设备的充电功率。\n- 充电动画、充电声音和充电壁纸。",
+    "version": "1.0.1",
+    "developer": "JSF Apex",
+    "developerId": "JSF+Apex",
+    "url": "https://play.google.com/store/apps/details?id=charging.animation.play.show.fun.pika.battery.flashing&hl=zh&gl=cn"
+  }
+}
