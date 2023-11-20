@@ -42,63 +42,49 @@ jobs:
       - name: Run install@shell
         run: |
           npm install
-      - name: Run Generate RDWords App Info
-        env:
-          ANDROID_APP_ID: reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese
-          # IOS_APP_ID: reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese
-        run: |
-          # Android
-          if [ $ANDROID_APP_ID ]; then
-            npm run dev -- gplay --appId $ANDROID_APP_ID --debug;
-            npm run dev -- gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
-            npm run dev -- aso --store gplay --appId $ANDROID_APP_ID --debug;
-            npm run dev -- aso --store gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
-          fi
-          # iOS
-          if [ $IOS_APP_ID ]; then
-            npm run dev -- store --appId $IOS_APP_ID --debug;
-            npm run dev -- store --country cn --lang zh --appId $IOS_APP_ID --debug;
-            npm run dev -- aso --store itunes --appId $IOS_APP_ID --debug;
-            npm run dev -- aso --store itunes --country cn --lang zh --appId $IOS_APP_ID --debug;
-          fi
-      - name: Run Generate PrismWalls App Info
-        env:
-          ANDROID_APP_ID: hd.uhd.quality.wallpaper.pexels.walls.walpy.walli
-          # IOS_APP_ID: hd.uhd.quality.wallpaper.pexels.walls.walpy.walli
-        run: |
-          # Android
-          if [ $ANDROID_APP_ID ]; then
-            npm run dev -- gplay --appId $ANDROID_APP_ID --debug;
-            npm run dev -- gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
-            npm run dev -- aso --store gplay --appId $ANDROID_APP_ID --debug;
-            npm run dev -- aso --store gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
-          fi
-          # iOS
-          if [ $IOS_APP_ID ]; then
-            npm run dev -- store --appId $IOS_APP_ID --debug;
-            npm run dev -- store --country cn --lang zh --appId $IOS_APP_ID --debug;
-            npm run dev -- aso --store itunes --appId $IOS_APP_ID --debug;
-            npm run dev -- aso --store itunes --country cn --lang zh --appId $IOS_APP_ID --debug;
-          fi
-      - name: Run Generate VOLT Charging Play App Info
-        env:
-          ANDROID_APP_ID: charging.animation.play.show.fun.pika.battery.flashing
-          # IOS_APP_ID: charging.animation.play.show.fun.pika.battery.flashing
-        run: |
-          # Android
-          if [ $ANDROID_APP_ID ]; then
-            npm run dev -- gplay --appId $ANDROID_APP_ID --debug;
-            npm run dev -- gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
-            npm run dev -- aso --store gplay --appId $ANDROID_APP_ID --debug;
-            npm run dev -- aso --store gplay --country cn --lang zh --appId $ANDROID_APP_ID --debug;
-          fi
-          # iOS
-          if [ $IOS_APP_ID ]; then
-            npm run dev -- store --appId $IOS_APP_ID --debug;
-            npm run dev -- store --country cn --lang zh --appId $IOS_APP_ID --debug;
-            npm run dev -- aso --store itunes --appId $IOS_APP_ID --debug;
-            npm run dev -- aso --store itunes --country cn --lang zh --appId $IOS_APP_ID --debug;
-          fi
+      - name: Run Generate All App Info
+        uses: actions/github-script@v6
+        with:
+          script: |
+            var execSync = require('child_process').execSync;
+            var apps = [
+              {
+                name: "RDWords",
+                bundles: {
+                  android: "reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese",
+                  ios: "com.tencent.xin",
+                },
+              },
+              {
+                name: "PrismWalls",
+                bundles: {
+                  android: "hd.uhd.quality.wallpaper.pexels.walls.walpy.walli",
+                  ios: undefined,
+                },
+              },
+              {
+                name: "VOLT Charging Play",
+                bundles: {
+                  android: "charging.animation.play.show.fun.pika.battery.flashing",
+                  ios: undefined,
+                },
+              },
+            ];
+            apps.forEach(function (app) {
+              console.log("app: " + app.name);
+              if (app.bundles.android) {
+                execSync("npm run dev -- gplay --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                execSync("npm run dev -- gplay --country cn --lang zh --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                execSync("npm run dev -- aso --store gplay --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                execSync("npm run dev -- aso --store gplay --country cn --lang zh --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+              }
+              if (app.bundles.ios) {
+                execSync("npm run dev -- store --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                execSync("npm run dev -- store --country cn --lang zh --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                execSync("npm run dev -- aso --store itunes --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                execSync("npm run dev -- aso --store itunes --country cn --lang zh --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+              }
+            });
       - name: Checkout Github Pages
         continue-on-error: true # 忽略 gh-pages 分支未创建
         uses: actions/checkout@v3
