@@ -3,7 +3,7 @@ name: cron-apps
 on:
   push:
     branches:    
-      - master
+      - main
     paths-ignore:
       - '.github/workflows/**'
       - 'README.md'
