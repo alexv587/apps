@@ -52,7 +52,7 @@ jobs:
                 name: "RDWords",
                 bundles: {
                   android: "reverse.dictionary.wantwords.bravo.oxford.xinhua.english.chinese",
-                  ios: "com.tencent.xin",
+                  ios: undefined,
                 },
               },
               {
