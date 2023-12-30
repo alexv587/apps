@@ -4,6 +4,7 @@
     "appId": "charging.animation.play.show.fun.pika.battery.flashing",
     "title": "VOLT Charging Play Animation",
     "icon": "https://play-lh.googleusercontent.com/rhSA0wV09y1YkOvjQb0iY0O1TaLQEEhihqgqR-gP7d-czaKHOzhHUktjaF3xY5ImXg",
+    "summary": "VOLT Charging Play/Show Fun Animation",
     "description": "When the mobile phone is connected to the charger or placed to the wireless charging panel, Charging Play app will automatically start and turn on the charging animation display. Charging Play will stop working after your Phone/Tablet removed from the charger.\n\nKey Features of Charging Play:\n- Detect the charging power of the current device.\n- Charge animations, charge sound and charge wallpapers.",
     "version": "1.0.1",
     "developer": "JSF Apex",
