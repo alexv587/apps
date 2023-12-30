@@ -78,7 +78,7 @@ jobs:
               },
             ];
             var devId = {
-              android: "",
+              android: "JSF Apex",
               ios: undefined,
             }
             apps.forEach(function (app) {
