@@ -63,6 +63,13 @@ jobs:
                 },
               },
               {
+                name: "PrismWalls Lite",
+                bundles: {
+                  android: "hd.uhd.quality.wallpaper.pexels.walls.walpy.walli.lite",
+                  ios: undefined,
+                },
+              },
+              {
                 name: "VOLT Charging Play",
                 bundles: {
                   android: "charging.animation.play.show.fun.pika.battery.flashing",
