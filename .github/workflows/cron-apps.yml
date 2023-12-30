@@ -77,21 +77,33 @@ jobs:
                 },
               },
             ];
+            var devId = {
+              android: "",
+              ios: undefined,
+            }
             apps.forEach(function (app) {
               console.log("app: " + app.name);
-              if (app.bundles.android) {
-                execSync("npm run dev -- gplay --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-                execSync("npm run dev -- gplay --country cn --lang zh --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-                execSync("npm run dev -- aso --store gplay --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-                execSync("npm run dev -- aso --store gplay --country cn --lang zh --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-              }
-              if (app.bundles.ios) {
-                execSync("npm run dev -- store --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-                execSync("npm run dev -- store --country cn --lang zh --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-                execSync("npm run dev -- aso --store itunes --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-                execSync("npm run dev -- aso --store itunes --country cn --lang zh --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
-              }
+                if (app.bundles.android) {
+                  execSync("npm run dev -- app --store gplay --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                  execSync("npm run dev -- app --store gplay --country cn --lang zh --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                  execSync("npm run dev -- aso --store gplay --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                  execSync("npm run dev -- aso --store gplay --country cn --lang zh --appId " + app.bundles.android + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                }
+                if (app.bundles.ios) {
+                  execSync("npm run dev -- app --store itunes --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                  execSync("npm run dev -- app --store itunes --country cn --lang zh --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                  execSync("npm run dev -- aso --store itunes --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                  execSync("npm run dev -- aso --store itunes --country cn --lang zh --appId " + app.bundles.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+                }
             });
+            if (devId.android) {
+              execSync("npm run dev -- apps --store gplay --devId " + "\"" + devId.android + "\"" + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+              execSync("npm run dev -- apps --store gplay --country cn --lang zh --devId " + "\"" + devId.android + "\"" + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+            }
+            if (devId.ios) {
+              execSync("npm run dev -- apps --store itunes --devId " + devId.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+              execSync("npm run dev -- apps --store itunes --country cn --lang zh --devId " + devId.ios + " --debug", { encoding: "utf-8", stdio: "inherit", shell: true });
+            }
       - name: Checkout Github Pages
         continue-on-error: true # 忽略 gh-pages 分支未创建
         uses: actions/checkout@v3
