@@ -5,6 +5,10 @@
     "review": {
       "enabled": false
     },
+    "invites": {
+      "discord": "https://discord.gg/r9J84dRy",
+      "telegram": "https://t.me/+7OooQbjl-A0yZTE1"
+    },
     "pexels_api_keys": [
       "iL7fRpSsFeKT1YRbueRBqi1mS9vVNeGsJAjxwMg4tuBXMZqhf5WbdCpB",
       "563492ad6f9170000100000165b5edfddec447bf8b79f1bb169f51b1",
