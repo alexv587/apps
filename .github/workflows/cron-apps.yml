@@ -78,7 +78,7 @@ jobs:
               },
             ];
             var devId = {
-              android: "JSF Apex",
+              android: "JSF Studios",
               ios: undefined,
             }
             apps.forEach(function (app) {
