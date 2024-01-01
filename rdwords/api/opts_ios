@@ -5,6 +5,10 @@
     "review": {
       "enabled": false
     },
+    "invites": {
+      "discord": "https://discord.gg/Y5eP7faW",
+      "telegram": "https://t.me/+wrCiuHJWm1BiMmM1"
+    },
     "headers": {
       "flag": "cceb1c9565836a0f3f55f9ac"
     }
