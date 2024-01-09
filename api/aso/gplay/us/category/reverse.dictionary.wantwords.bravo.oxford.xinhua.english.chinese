@@ -2,9 +2,9 @@
   "code": 0,
   "data": [
     "app",
-    "data",
     "use",
-    "privacy",
-    "phone"
+    "data",
+    "phone",
+    "features"
   ]
 }
