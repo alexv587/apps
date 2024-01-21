@@ -3,8 +3,8 @@
   "data": [
     "app",
     "data",
-    "features",
     "use",
-    "phone"
+    "phone",
+    "features"
   ]
 }
