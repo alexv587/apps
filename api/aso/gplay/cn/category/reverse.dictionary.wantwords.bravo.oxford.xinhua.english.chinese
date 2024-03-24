@@ -3,8 +3,8 @@
   "data": [
     "app",
     "vpn",
-    "android",
     "https",
-    "google"
+    "google",
+    "use"
   ]
 }
